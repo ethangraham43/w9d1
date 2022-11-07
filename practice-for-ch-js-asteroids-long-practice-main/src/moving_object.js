@@ -23,6 +23,18 @@ MovingObject.prototype.draw = function(ctx) {
 
 };
 
+MovingObject.prototype.move = function () {
+    // let posX = this.pos[0];
+    // let posY = this.pos[1];
+    let velX = this.vel[0];
+    let velY = this.vel[1];
+
+    this.pos[0] += velX;
+    this.pos[1] += velY;
+
+    // return this;
+}
+
 
 module.exports = MovingObject;
 

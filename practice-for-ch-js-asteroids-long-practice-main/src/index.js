@@ -19,5 +19,11 @@ document.addEventListener("DOMContentLoaded", function() {
     canvasEl.height = 500;
 
     const ctx = canvasEl.getContext("2d");
+    // ctx.fillStyle = "black"
     mo.draw(ctx)
+    debugger;
+    mo.move()
+    debugger;
+    mo.draw(ctx)
+
 })
